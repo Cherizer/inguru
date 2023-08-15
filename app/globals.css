@@ -1,0 +1,54 @@
+/* app.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* Reset some default styles */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
+}
+
+/* Define the overall dark theme */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #eeeeee;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Style for the navigation bar */
+.navbar {
+  width: 100%;
+  padding: 20px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+}
+
+.flag-drop{
+  background-color: #eeeeee;
+}
+
+.navbar-title {
+  color: rgb(239, 129, 3);
+  font-family: 'Cherry Bomb One', cursive;
+  font-size: 32pt;
+}
+
+/* Style for the under construction content */
+.under-construction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  font-size: 56pt;
+  color: rgb(239, 129, 3);
+}
