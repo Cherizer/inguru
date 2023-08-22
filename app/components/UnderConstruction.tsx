@@ -6,7 +6,7 @@ import animationData from '../../public/koala-animation.json';
 function UnderConstruction() {
     return (
     <div className="under-construction">
-      <p>Mēs vēl topam!</p>
+      <p>Hey! Mēs vēl topam!</p>
       <Lottie animationData={animationData} height={300} width={300} />
     </div>
   );
